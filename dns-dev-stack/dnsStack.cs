@@ -6,9 +6,12 @@ class dnsStack : Stack
 {
     public dnsStack()
     {
+        var config = new Config();
+        var cloudflareZoneId = config.Require("cloudflareDnsZoneId");
+        
         var foobar = new Cloudflare.Record("foobar", new Cloudflare.RecordArgs
         {
-            ZoneId = "temp1234567",
+            ZoneId = cloudflareZoneId,
             Name = "temp_record",
             Value = "192.168.0.111",
             Type = "A",
