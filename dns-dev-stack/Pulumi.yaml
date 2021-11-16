@@ -1,0 +1,3 @@
+name: dns-stack
+runtime: dotnet
+description: A minimal C# Pulumi program
