@@ -1,1 +1,1 @@
-# A minimal dns dev stack.
+# A minimal 🗺️ dns dev 🥞 stack.
