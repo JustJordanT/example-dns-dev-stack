@@ -1,3 +1,5 @@
 config:
   cloudflare:apiToken:
-    secure: AAABAJCd57F61uH1zVlJsIhrv4SqPagbe8ISbCpFZjz5KYMgDpFQsZDLEr8qpH/XBtvC9WEHaATiudsWHyU2L7dxxglZIOxg
+    secure: AAABAJVmnCMO+XYzkmnSAfgPlhZFWuDpqX3qFb/y8wkCk49G65Ip4wY+262qP3oArIT7H2nnPIRn1Vl7e5jedW5g1CFAQ5O0
+  des-stack:cloudflareDnsZoneId:
+    secure: AAABAPyOaVCL3OcPuuas2fpZARJn+nvfmsAR6tz4IME/CLBr3yS/8duM84XFVb1fOH8rQC75UBSZEr3lD8sBmw==

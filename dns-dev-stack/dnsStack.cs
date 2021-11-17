@@ -7,7 +7,7 @@ class dnsStack : Stack
     public dnsStack()
     {
         var config = new Config();
-        var cloudflareZoneId = config.Require("cloudflareDnsZoneId");
+        var cloudflareZoneId = "d6f9720445b2707cd691d547276085f6";
         
         var foobar = new Cloudflare.Record("foobar", new Cloudflare.RecordArgs
         {
